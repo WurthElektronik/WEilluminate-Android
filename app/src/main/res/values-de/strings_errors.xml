@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+
+    <!-- Ble not enabled -->
+    <string name="bluetoothNotEnabled">Bitte aktivieren Sie Bluetooth um die App nutzen zu können.</string>
+
+    <!-- Ble GattErrors -->
+    <string name="errorConnectionStateChanged">Verbindung zum Gerät nicht möglich!</string>
+    <string name="errorRequestFailed">Anfrage fehlgeschlagen</string>
+    <string name="errorMtuRequest">MTU-Anfrage fehlgeschlagen ! Bluetoothversion wird nicht unterstüzt.</string>
+    <string name="errorMtuRequest133">MTU-Anfrage fehlgeschlagen! Gerät unterstüzt nicht die benötigte MTU-Größe.</string>
+    <string name="errorWriteCharacteristic">Schreiben der Characteristik fehlgeschlagen!</string>
+
+    <!-- Connection Errors -->
+    <string name="errorDeviceConnectionLost">Verbindung verloren:</string>
+    <string name="deviceConnectionFailed">Der Verbindungsaufbau zum Gerät ist fehlgeschlagen!</string>
+
+    <!-- Parser Error -->
+    <string name="hexParsingError">Die Eingabe ist kein valider HEX-Text!</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="channelsToolbarTitle">WE</string>
+    <string name="channel1">Channel 1</string>
+    <string name="channel2">Channel 2</string>
+    <string name="channel3">Channel 3</string>
+    <string name="channel4">Channel 4</string>
+    <string name="brightness">Brightness</string>
+    <string name="forgetDevice">Forget Device</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="deviceNotFound">Previous device not found</string>
+    <string name="deviceReconnected">reconnected!</string>
+    <string name="deviceDisconnected">disconnected!</string>
+    <string name="deviceSendingInfo">Commands will be send to all connected devices!</string>
+
+    <!-- Broadcastreceiver -->
+    <string name="payloadError">An Error occurred. The Payload has a false length</string>
+
+    <string name="log" formatted="false">%1$tR:%1$tS.%1$tL</string>
+    <string name="noData">No data to display.</string>
+
+    <!-- Profile selected -->
+    <string name="activeProfile">Selected profile:</string>
+
+    <!-- Dialog Encoding-->
+    <string name="encodingDialogTitle">Choose Character Encoding</string>
+    <string-array name="encodingOptions">
+        <item>ASCII</item>
+        <item>HEX</item>
+    </string-array>
+
+    <!-- Dialog switching view -->
+    <string name="switchingViewTitle">Change View</string>
+    <string-array name="viewOptions">
+        <item>Channels</item>
+        <item>Terminal</item>
+    </string-array>
+
+
+    <!-- Menu -->
+    <string name="menuConnect">Connect</string>
+    <string name="menuDisconnect">Disconnect</string>
+    <string name="menuEncoding">Change Encoding</string>
+    <string name="menuShowViewChannels">Show Channels</string>
+    <string name="menuShowViewTerminal">Show Terminal</string>
+    <string name="menuControlAllChannels">Control all devices</string>
+    <string name="menuSettings">Settings</string>
+
+    <!-- No log entries -->
+    <string name="noLogEntries">No log entries for selected log level.</string>
+
+    <!-- Log Filter Entries -->
+    <string-array name="logFilterEntries">
+        <item>DEBUG</item>
+        <item>VERBOSE</item>
+        <item>INFO</item>
+        <item>APP</item>
+        <item>WARNING</item>
+        <item>ERROR</item>
+    </string-array>
+
+    <string name="controlChannelsGlobally">Control channels globally</string>
+
+</resources>

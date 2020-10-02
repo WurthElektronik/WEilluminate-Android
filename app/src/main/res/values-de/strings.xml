@@ -1,0 +1,24 @@
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="app_name">WEilluminate</string>
+    <string name="splashScreenImg">Ladebildschirm</string>
+    <string name="menuItem1">Info</string>
+    <string name="menuItem2">Scan</string>
+    <string name="menuItem3">Kanäle</string>
+    <string name="settingsTitle">Einstellungen</string>
+    <string name="defaultToolbarTitle">Toolbar Title</string>
+    <string name="no_ble">Gerät unterstüzt kein BLE!</string>
+    <string name="permissionNotGranted">Um nach Geräten scannen zu können, müssen Sie zulassen, dass die App Ihren Standort abrufen darf.</string>
+    <string name="permissionDenied">Ohne die Erlaubnis wird die App nicht vollständig funktionieren.</string>
+    <string name="doubleTabToExit">Bitte drücken Sie zweimal den ZURÜCK-Knopf um die App zu verlassen.</string>
+</resources>

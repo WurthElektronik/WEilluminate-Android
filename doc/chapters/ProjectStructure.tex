@@ -1,0 +1,81 @@
+\chapter{Project Structure}
+
+The project structure of the apps is nearly identical. The base identifiers of the apps are:
+
+\begin{itemize}
+	\item[1.] com.eisos.android (WEilluminate)
+	\item[2.] com.eisos.android.terminal (Proteus Connect)
+\end{itemize}
+
+\noindent
+The applications contain following packages:
+
+\begin{itemize}
+	\item adapter
+	\item bluetooth
+	\item customLayout
+	\item database
+	\item frags
+	\item profiles
+	\item utils
+\end{itemize}
+
+\noindent
+The Proteus Connect app additionally has the \glqq gpio\grqq\ package because this app can control GPIO pins whereas the WEillumiante app cannot.
+
+\section{Packages}
+
+\subsection{adapter}
+
+In this package all the adapters of the List- and RecyclerViews are saved. They are needed to give list entries a custom look.
+
+\subsection{bluetooth}
+
+This is one of the core packages of the app. Most of the classes have been created with the help of the Nordic Semiconductor Bluetooth libraries like the Android-BLE-Library (\url{https://github.com/NordicSemiconductor/Android-BLE-Library}) and the Android-Scanner-Compat-Library (\url{https://github.com/NordicSemiconductor/Android-Scanner-Compat-Library}). Everything that is related to Bluetooth and the connection in general can be found here. The most important classes are \textit{UARTManager}, \textit{BleMulticonnectProfileService} and \textit{UARTService}.
+
+\subsection{customLayout}
+
+In this package classes are saved, that specifically are used to expand Layout classes.
+
+\subsection{database}
+
+Everything related to databases, that means saving favorite devices or profiles, can be found in this package.
+
+\subsection{frags}
+
+All the necessary Fragment classes of the UI are saved here.
+
+\subsection{gpio (Proteus Connect only)}
+
+Everything related to GPIO is saved in here.
+
+\subsection{profiles}
+
+All classes that are needed to create, edit or delete profiles are located in this package.
+
+\subsection{utils}
+
+In here, helper classes like conversion classes etc. are saved.\\
+
+\noindent
+Most of the Activity-Classes are located directly in the identifier package.
+
+\section{Resources}
+
+In Android there are multiple resource folders. They can be found under \textit{res}.
+
+\begin{itemize}
+	\item drawable (Images and icons)
+	\item layout (UI design, layout xml-files)
+	\item menu (All menu option xml-files)
+	\item mipmap (The launcher icons)
+	\item values (App colors and string resources)
+	\item xml (Contains file path xml-files)
+\end{itemize}
+
+\section{Global settings}
+
+In an Android project there are two main files for global app settings. The first one is the \textit{Manifest.xml}. In this file all the Activities, Services and Permissions are declared. The second one is the \textit{build.gradle(:app)}. All needed project dependencies and the app versions are set in this file.
+
+
+

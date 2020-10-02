@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<resources>
+    <string name="descriptionPlaceholder">Keine Beschreibung verfügbar</string>
+    <string name="titleProfileName">Profilname</string>
+    <string name="titleProfileDescription">Beschreibung</string>
+    <string name="ledPanelType">LED Paneltyp</string>
+    <string name="panelPlaceholder">Keiner gesetzt</string>
+    <string name="colorChannel1">Kanal 1</string>
+    <string name="colorChannel2">Kanal 2</string>
+    <string name="colorChannel3">Kanal 3</string>
+    <string name="colorChannel4">Kanal 4</string>
+    <string name="globalBrightness">Helligkeit</string>
+    <string name="fieldRequired">Feld benötigt!</string>
+    <string name="wrongValue">Wert muss zwischen 0 - 255 liegen</string>
+    <string name="noProfilesAvailable">Keine Profile verfügbar</string>
+    <string name="profileSelect">Auswählen</string>
+    <string name="profileEdit">Bearbeiten</string>
+    <string name="profileDelete">Löschen</string>
+    <string name="createProfileBtn">Erstelle Profil</string>
+    <string name="editProfileBtn">Bearbeite Profil</string>
+
+    <!-- Profile import/export -->
+    <string name="profileImportSuccess">Profile erfolgreich importiert</string>
+    <string name="profileImportError">Ein Fehler trat während dem Import auf!</string>
+    <string name="profileExportSuccess">Exportiert nach:</string>
+    <string name="profileExportError">Ein Fehler trat während dem Export auf!</string>
+    <string name="profileExportSelectAll">Alle</string>
+    <string name="importProfile">Importiere Profil</string>
+    <string name="exportProfile">Exportiere Profil</string>
+    <string name="availableProfiles">Verfügbare Profile</string>
+    <string name="exportProfileBtn">Exportieren</string>
+
+    <!-- Error dialog -->
+    <string name="profileImportFailedTitle">Import fehlgeschlagen</string>
+    <string name="profileImportFailedMsg">Der Import des Profils schlug auf Grund eines falschen Dateiformats fehl. Bitte stellen Sie sicher, dass Sie eine zur App passende Datei einlesen.</string>
+
+    <string name="profileSelected">Ausgewähltes Profil:</string>
+    <string name="profileSelectedNone">Ausgewähltes Profil: /</string>
+    <string name="profileSavedSuccess">Profil erfolgreich gespeichert</string>
+    <string name="changeProfileImage">Ändern</string>
+
+    <!-- OverwriteProfileDialog -->
+    <string name="overwriteProfileTitle">Überschreibe Profil</string>
+    <string name="overwriteProfileMsg">Möchten Sie das Profil wirklich überschreiben?</string>
+</resources>

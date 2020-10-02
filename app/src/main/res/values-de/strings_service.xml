@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="serviceContentTitle">Service läuft im Hintergrund</string>
+    <string name="serviceContentText">Drücke zum Öffnen</string>
+    <string name="deviceBonding">Gerät wird gepaart...</string>
+    <string name="deviceBonded">Gerät gepaart</string>
+    <string name="deviceBondingFailed">Gerätepaarung ist fehlgeschlagen</string>
+    <string name="bleVersionNotSupported">Verbindung fehlgeschlagen: Die Bluetooth Version Ihres Smartphones ist veraltet!</string>
+    <string name="connectionLost">Die Verbindung zum Gerät wurde unterbrochen!</string>
+    <string name="mtuNotSupported">Das Gerät unterstüzt keine MTU > 21! Daher kann die App leider nicht auf Ihrem Gerät verwendet werden.</string>
+</resources>

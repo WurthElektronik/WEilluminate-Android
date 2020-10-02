@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="channelsToolbarTitle">WE</string>
+    <string name="channel1">Kanal 1</string>
+    <string name="channel2">Kanal 2</string>
+    <string name="channel3">Kanal 3</string>
+    <string name="channel4">Kanal 4</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="forgetDevice">Gerät vergessen</string>
+    <string name="connected">Verbunden</string>
+    <string name="disconnected">Nicht verbunden</string>
+    <string name="deviceNotFound">Vorherig verbundes Gerät nicht gefunden</string>
+    <string name="deviceReconnected">Verbindung wiederhergestellt!</string>
+    <string name="deviceDisconnected">Verbindung verloren!</string>
+    <string name="deviceSendingInfo">Befehle werden an alle verbundenen Geräte gesendet!</string>
+
+    <!-- Broadcastreceiver -->
+    <string name="payloadError">Ein Fehler ist aufgetreten. Die Payload hat eine falsche Länge.</string>
+
+    <string name="log" formatted="false">%1$tR:%1$tS.%1$tL</string>
+    <string name="noData">Keine Daten zum Darstellen.</string>
+
+    <!-- Profile selected -->
+    <string name="activeProfile">Ausgewähltes Profil:</string>
+
+    <!-- Dialog Encoding-->
+    <string name="encodingDialogTitle">Wähle Choose Character Encoding</string>
+    <string-array name="encodingOptions">
+        <item>ASCII</item>
+        <item>HEX</item>
+    </string-array>
+
+    <!-- Dialog switching view -->
+    <string name="switchingViewTitle">Ändere Zeichenkodierung</string>
+    <string-array name="viewOptions">
+        <item>Kanäle</item>
+        <item>Terminal</item>
+    </string-array>
+
+
+    <!-- Menu -->
+    <string name="menuConnect">Verbinden</string>
+    <string name="menuDisconnect">Verbindung trennen</string>
+    <string name="menuEncoding">Ändere Kodierung</string>
+    <string name="menuShowViewChannels">Zeige Kanäle</string>
+    <string name="menuShowViewTerminal">Zeige Terminal</string>
+    <string name="menuControlAllChannels">Kontrolliere alle Geräte</string>
+    <string name="menuSettings">Einstellungen</string>
+
+    <!-- No log entries -->
+    <string name="noLogEntries">Keine Log-Einträge für das ausgewählte Log-Level.</string>
+
+    <!-- Log Filter Entries -->
+    <string-array name="logFilterEntries">
+        <item>DEBUG</item>
+        <item>VERBOSE</item>
+        <item>INFO</item>
+        <item>APP</item>
+        <item>WARNING</item>
+        <item>ERROR</item>
+    </string-array>
+
+    <string name="controlChannelsGlobally">Kontrolliere alle Geräte</string>
+
+</resources>

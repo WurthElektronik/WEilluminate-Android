@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<resources>
+    <string name="deviceMenuItemProfiles">Profile</string>
+    <string name="deviceMenuItemMtu">MTU</string>
+    <string name="devicemenuItemRequestMtu">Fordere MTU an</string>
+    <string name="deviceMenuItemReadMtu">Lese MTU</string>
+    <string name="deviceMenuItemReadRssi">Lese Rssi</string>
+    <string name="deviceMenuItemPhy">PHY</string>
+    <string name="deviceMenuItemReadPhy">Lese PHY</string>
+    <string name="deviceMenuItemSetPhy">Setze PHY</string>
+</resources>

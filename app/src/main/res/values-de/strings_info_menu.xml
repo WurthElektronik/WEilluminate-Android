@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="infoToolbarTitle">WE</string>
+    
+    <string name="information">Informationen</string>
+    <string name="version">Version</string>
+    <string name="versionNumber">3.0</string>
+    <string name="privacyPolicy">Datenschutz</string>
+    <string name="imprint">Impressum</string>
+    <string name="whatsNew">Was ist neu</string>
+    
+    <string name="infoLinksTitle">Links</string>
+    <string name="language">Sprache</string>
+    <string-array name="languageOptions">
+        <item>Englisch</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string name="sensors">Wireless Connectivity and Sensors</string>
+    <string name="userManuals">Benutzerhandbücher</string>
+    <string name="sourceCode">Quellcode</string>
+
+    <!-- Change language -->
+    <string name="languageAfterRestart">Die Sprache wird nach einem Neustart der App übernommen.</string>
+
+    <string name="btn_Accept">Akzeptieren</string>
+
+</resources>

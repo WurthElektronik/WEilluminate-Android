@@ -1,0 +1,14 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Project Structure}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Packages}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}adapter}{1}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}bluetooth}{1}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}customLayout}{2}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {1.1.4}database}{2}{subsection.1.1.4}% 
+\contentsline {subsection}{\numberline {1.1.5}frags}{2}{subsection.1.1.5}% 
+\contentsline {subsection}{\numberline {1.1.6}gpio (Proteus Connect only)}{2}{subsection.1.1.6}% 
+\contentsline {subsection}{\numberline {1.1.7}profiles}{2}{subsection.1.1.7}% 
+\contentsline {subsection}{\numberline {1.1.8}utils}{2}{subsection.1.1.8}% 
+\contentsline {section}{\numberline {1.2}Resources}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Global settings}{2}{section.1.3}% 

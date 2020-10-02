@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="searchToolbarTitle">Wähle Gerät</string>
+    <string name="devicesFound">Gefundene Geräte</string>
+
+    <string name="scan">Scan</string>
+    <string name="stopScanning">Stoppe Scan</string>
+    <string name="connectionTimedOut">Verbindungsaufbau dauert zu lange</string>
+    <string name="deviceNotSupported">Gerät wird nicht unterstüzt!</string>
+
+    <string name="menuItemAutoConnect">Verbinde mit autom. Wiederverbindung</string>
+    <string name="menuItemSetPhy">Verbinde mit bevorzugter Phy</string>
+</resources>

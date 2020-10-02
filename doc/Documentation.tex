@@ -1,0 +1,94 @@
+
+\documentclass[envcountsame,envcountchap, deutsch]{i-studis}
+
+\usepackage{makeidx}         	% Index
+\usepackage{multicol}        	% Zweispaltiger Index
+\usepackage{float}				% Platzierung von tables (H)
+%\usepackage[bottom]{footmisc}	% Erzeugung von Fuï¿½noten
+
+%%-----------------------------------------------------
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse
+%\else
+%\pdfoutput=1
+%\pdftrue
+%\fi
+%%--------------------------------------------------------
+%\ifpdf
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\usepackage[pdftex,plainpages=false]{hyperref}
+%\else
+%\usepackage{graphicx}
+%\usepackage[plainpages=false]{hyperref}
+%\fi
+
+%%-----------------------------------------------------
+\usepackage{color}				% Farbverwaltung
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}  	% Ermï¿½glicht Umlaute-Darstellung unter Linux (je nach verwendetem Format)
+
+%-----------------------------------------------------
+\usepackage{listings} 			% Code-Darstellung
+\lstset
+{
+	basicstyle=\scriptsize, 	% print whole listing small
+	keywordstyle=\color{blue}\bfseries,
+								% underlined bold black keywords
+	identifierstyle=, 			% nothing happens
+	commentstyle=\color{red}, 	% white comments
+	stringstyle=\ttfamily, 		% typewriter type for strings
+	showstringspaces=false, 	% no special string spaces
+	framexleftmargin=7mm, 
+	tabsize=3,
+	showtabs=false,
+	frame=single, 
+	rulesepcolor=\color{blue},
+	numbers=left,
+	linewidth=146mm,
+	xleftmargin=8mm
+}
+
+\usepackage{textcomp} 			% Celsius-Darstellung
+\usepackage{amssymb,amsfonts,amstext,amsmath}	% Mathematische Symbole
+\usepackage[german, ruled, vlined]{algorithm2e}
+\usepackage[a4paper]{geometry} % Andere Formatierung
+\usepackage{bibgerm}
+\usepackage{array}
+\usepackage{hyperref}
+\hyphenation{Ele-men-tar-ob-jek-te  ab-ge-tas-tet Aus-wer-tung House-holder-Matrix Le-ast-Squa-res-Al-go-ri-th-men} 		% Weitere Silbentrennung bei Bedarf angeben
+\setlength{\textheight}{1.1\textheight}
+\pagestyle{myheadings} 			% Erzeugt selbstdefinierte Kopfzeile
+\makeindex 						% Index-Erstellung
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks%  save the current one
+	\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+	\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+	\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+	\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+	\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+	\do\Y\do\Z} % Dient der Darstellung der URL's im Literaturverzeichnis (Zeilenumbrüche)
+
+%--------------------------------------------------------------------------
+\begin{document}
+%------------------------- Titelblatt -------------------------------------
+
+%--------------------------------------------------------------------------
+\frontmatter 
+%--------------------------------------------------------------------------
+\input{chapters/Introduction.tex}
+\tableofcontents 						% Inhaltsverzeichnis
+%--------------------------------------------------------------------------
+\mainmatter                        		% Hauptteil (ab hier arab. Seitenzahlen)
+%--------------------------------------------------------------------------
+% Die Kapitel werden in separaten .tex-Dateien abgelegt und hier eingebunden.
+\input{chapters/ProjectStructure.tex}
+% ...
+%--------------------------------------------------------------------------
+\backmatter                        		% Anhang
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+\printindex 							% Index (optional)
+%--------------------------------------------------------------------------
+
+\end{document}

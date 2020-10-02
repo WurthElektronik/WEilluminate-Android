@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<resources>
+    <string name="dialogReadWriteTitle">Lese/Schreibe</string>
+    <string name="infoInput">Input</string>
+    <string name="infoOutput">Output</string>
+
+    <!-- Config  -->
+    <string name="dialogConfigTitle">Konfiguriere</string>
+    <string name="pinB1">B1</string>
+    <string name="pinB2">B2</string>
+    <string name="pinB3">B3</string>
+    <string name="pinB4">B4</string>
+    <string name="pinB5">B5</string>
+    <string name="pinB6">B6</string>
+
+    <string name="pinValueNoPull">no pull</string>
+    <string name="pinValuePullUp">pull up</string>
+    <string name="pinValuePullDown">pull down</string>
+    <string name="pinValueHigh">high</string>
+    <string name="pinValueLow">low</string>
+
+    <string name="noConfigAvailable">Keine Konfiguration verfügbar. Bitte lesen Sie die Konfiguration.</string>
+    <string name="pinNotConfigured">Pin ist nicht konfiguriert.</string>
+
+    <!-- Read/write -->
+    <string name="dialogReadBtn">Lese</string>
+    <string name="dialogWriteBtn">Schreibe pin</string>
+    <string name="dialogWriteAll">Schreibe alle</string>
+    <string name="dialogRWNoConfig">Bitte lesen Sie die Pin-Konfiguration.</string>
+    <string name="dialogRWPinNotConfigured">Pin ist nicht konfiguriert.</string>
+    <string name="dialogRWValuesNotRead">Bitte lesen Sie die Pin-Werte.</string>
+
+    <!-- GPIO values -->
+    <string name="gpioValueNoPull">No pull</string>
+    <string name="gpioFunctionOutput">Output</string>
+    <string name="gpioValueHigh">High</string>
+    <string name="gpioValueLow">Low</string>
+
+    <!-- Request Mtu -->
+    <string name="dialogMtuTitle">Frage Maximum Transfer Unit (MTU) an</string>
+    <string name="dialogMtuBtn">Anfragen</string>
+    <string name="dialogMtuHint">MTU-Wert: &lt;29 - 517&gt;</string>
+    <string name="dialogMtuWrongValue">MTU-Wert kann nur zwischen 29 and 517 liegen!</string>
+    <string name="dialogMtuFieldEmpty">MTU-Feld darf nicht leer sein!</string>
+
+    <!-- Request phy -->
+    <string name="dialogPhyTitle">Setze bevorzugte Phy</string>
+    <string name="dialogPhySubTitle">Bevorzugte transmitter (TX) und receiver (RX) Phy:</string>
+    <string name="dialogPhyLe1M">LE 1M (Legacy)</string>
+    <string name="dialogPhyLe2M">LE 2M (Doppelte Geschwindigkeit)</string>
+    <string name="dialogPhyCoded">LE Coded (Long range)</string>
+    <string name="dialogPhyCodedOptionS2">S2 (500 kbps*)</string>
+    <string name="dialogPhyCodedOptionS8">S8 (125 kbps, range x4)</string>
+    <string name="dialogPhyCodedNoPreferredMethod">Keine bevorzugte Methode</string>
+    <string name="dialogPhyCodedInfo">* Nur die Payload und der CRC nutzen 500 kbps.</string>
+
+    <!-- DeleteProfile -->
+    <string name="deleteProfileDialogTitle">Profil löschen</string>
+    <string name="deleteProfileDialogMsg1">Möchten Sie das Profil</string>
+    <string name="deleteProfileDialogMsg2">wirklich löschen?</string>
+    <string name="deleteProfileDialogBtn">Löschen</string>
+
+    <!-- Open image with camera or gallery -->
+    <string name="chooseImageActivityTitle">Wähle Bild</string>
+    <string name="chooseImageTitle">Wähle Bild</string>
+    <string name="chooseImageOptionGallery">Gallerie</string>
+    <string name="chooseImageOptionCamera">Kamera</string>
+    <string name="chooseImageOptionRemove">Entferne Bild</string>
+
+    <!-- ChooseLanguage -->
+    <string name="languageDialogTitle">Wähle Sprache</string>
+
+
+
+    <string name="dialogBtnOk">Ok</string>
+    <string name="dialogBtnCancel">Abbrechen</string>
+</resources>
